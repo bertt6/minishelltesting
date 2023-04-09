@@ -1,3 +1,4 @@
 # minishell
 deneme
 sss
+s
