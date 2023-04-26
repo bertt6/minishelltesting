@@ -1,4 +1,1 @@
 # minishell
-deneme
-sss
-s
