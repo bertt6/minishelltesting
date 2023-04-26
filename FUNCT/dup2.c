@@ -5,6 +5,8 @@
 #include <string.h>
 #include <errno.h>
 
+//dup2 fonksiyonu fd'leri eşitlemek için kullanılır.
+
 int main() {
     int fd1, fd2, fd3;
     char buf[100];

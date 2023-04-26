@@ -11,6 +11,9 @@
     üçüncü bağımsız değişken, belleğe yazılmamış bir işaretçidir.
     */
 
+/* pipe fonksiyonu hem standart output'u olan hem standart in'li bir fd oluşturur.*/
+
+
 int main() {
     int fd[2];
     pid_t pid;

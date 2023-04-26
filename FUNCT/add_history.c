@@ -3,6 +3,9 @@
 #include <readline/readline.h>
 #include <readline/history.h>
 
+// add_history fonksiyonu terminal içerisindeki ok tuşları ile 
+//geçmişte yazılan kodları eklemek, çıkarmak vb. işlemler için kullanılır.
+
 int main() {
      char* line;
      line = readline("Lütfen isminizi giriniz: ");

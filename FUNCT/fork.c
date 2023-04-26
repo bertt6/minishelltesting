@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
 
+/*fork fonksiyonu child process açmak için kullanılır.
+child_process thread'ten farklı olarak kopya bir main oluşturur.
+ana mainde değişen değer kopya mainde(child_process'te) değişmez
+ve aynı şekilde kopya mainde artan değer ana mainde değişmez.
+*/
+
 int main() {
     pid_t pid;
      int main_process = 0;

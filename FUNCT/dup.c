@@ -5,6 +5,8 @@
 #include <string.h>
 #include <errno.h>
 
+//dup fonksiyonu fd'lerin kopyalarını oluşturmak için kullanılır.
+
 int main() {
     int fd1, fd2;
     char buf[100];
